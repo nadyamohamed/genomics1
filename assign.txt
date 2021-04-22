@@ -1,0 +1,14 @@
+
+
+first assignment :
+
+paper name : sequence alignment 
+
+abstract :
+ 1-Sequence alignment is a fundamental bioinformatics problem. Algorithms for both pairwise alignment (ie, the alignment of two sequences) and the alignment of three sequences have been intensely researched deeply. In pairwise sequence alignment, we are given two sequences A and B and are to find their best alignment (either global or local
+
+2-A sequence alignment consists of writing two (or more) sequences in rows, and writing similar characters in the same column. In doing so, one is allowed to introduce so-called gaps, denoted by a dash ‘–’ in either one of the sequences. Assuming that the sequences are derived from a common ancestor sequence, matches correspond to conserved regions, mismatches correspond to mutations and gaps correspond to deletions or insertions, briefly called indels, in either one of the sequences.
+
+3-It is convenient to represent alignments in a grid, as depicted in Figure 2. All paths from the upper left corner to the lower right corner represent possible alignments. The path drawn in Figure 2 corresponds to the alignment given in Figure 1. A diagonal move introduces no gaps, a downwards move introduces a gap in the
+
+4-The Multiple Sequence Alignment problem, in computational biology, consists of aligning several sequences (strings; e.g., related genes from different organisms) to reveal similarities and differences across the group. Either DNA can be directly compared, and the underlying alphabet Σ consists of the set {C,G,A,T} for the four standard nucleotide bases cytosine, guanine, adenine and thymine; or we can compare proteins, in which case Σ comprises the 20 amino acids.
