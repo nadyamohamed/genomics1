@@ -1,0 +1,21 @@
+      RELATED WORK :
+
+.Multiple sequence alignment has been solved by using many approaches in diferent 
+felds [7–9]. In the bioinformatics domain, there are four main diferent approaches. 
+The frst approach is an exact approach in which dynamic programming is used to 
+align two sequences. It converts the MSA problem into the problem of fnding the 
+shortest path in a weighted direct acyclic graph. Dynamic programming gives good 
+alignment results for two sequences. When extended to multiple sequence alignment, the algorithm showed poor results as the lengths and the number of sequences 
+increased. In the second approach, called a progressive approach, the algorithm frst 
+fnds the most similar sequences and then incrementally aligns the other sequences to 
+the initial alignment. An example of this approach is CLUSTAL X (an updated version of CLUSTAL W, which is also an extension of a previous version CLUSTAL) 
+[10]. The third approach is a consistency-based approach. It considers that an optimum alignment occurred when optimal pair-wise alignments have been reached. A 
+common example is T-COFFEE [11]. It uses a library of pair-wise alignments from 
+the sequences to be aligned, then it fnds both the best global and the local alignments. After that, it gets a fnal alignment which has the highest level of consistency 
+within the library. The last approach is called an iterative approach. The alignment 
+algorithm in the iterative approach begins with a generated initial alignment, and 
+then it refnes the alignment until no more improvement could be obtained. GA and
+
+.The approximate string matching problem is to find all locations at which a query of lengthm matches a substring of a text of length n with k-or-fewer differences. Simple and practical bit-vector algorithms have been designed for this problem, most notably the one used in agrep. These algorithms compute a bit representation of the current state-set of the k-difference automaton for the query, and asymptotically run in either O(nm/w) or O(nm log σ/w) time where w is the word size of the machine (e.g., 32 or 64 in practice), and σ is the size of the pattern alphabet. Here we present an algorithm of comparable simplicity that requires only O(nm/w) time by virtue of computing a bit representation of the relocatable dynamic programming matrix for the problem. Thus, the algorithm's performance is independent of k, and it is found to be more efficient than the previous results for many choices of k and smallm.
+
+Moreover, because the algorithm is not dependent on k, it can be used to rapidly compute blocks of the dynamic programming matrix as in the 4-Russians algorithm of Wu et al.(1996). This gives rise to an O(kn/w) expected-time algorithm for the case where m may be arbitrarily large. In practice this new algorithm, that computes a region of the dynamic progr amming (d.p.) matrx w entries at a time using the basic algorithm as a subroutine is significantly faster than our previous 4-Russians algorithm, that computes the same region 4 or 5 entries at a time using table lookup. This performance improvement yields a code that is either superior or competitive with all existing algorithms except for some filtration algorithms that are superior when k/m is sufficiently small.
